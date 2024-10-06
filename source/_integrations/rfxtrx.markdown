@@ -252,7 +252,7 @@ This automatic guess should work most of the time, but there is no guarantee on 
 
 #### Replace device
 
-Some battery-powered devices send commands or data with a randomly generated id. When batteries are replaced, the id changes. In order to use the device, it needs to be re-added either through automatic add or manually. This will create a new device. To transfer user-configured names and entity ids of the old device, select the old device in the options menu under *Select device to configure*. In the device options menu, select from the *Select device to replace* menu the new device and press *Submit*. The names and ids of the old device will be transferred to the new device and the old device will be automatically deleted.
+Some battery-powered devices send commands or data with a randomly generated id. When batteries are replaced, the id changes. In order to use the device, it needs to be re-added either through automatic add or manually. This will create a new device. To transfer user-configured names and entity ids of the old device, first go to the integration panel (/config/integrations). Click on CONFIGURE on the rfxcom Tile. In the menu “select device to configure” select the old device and press *Submit*. Now select the new device. The names and ids of the old device will be transferred to the new device and the old device will be automatically deleted.
 
 ### Delete device
 
